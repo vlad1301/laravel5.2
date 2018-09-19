@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\UsersRequest;
+//use App\Http\Requests\UsersRequest;
 use App\Photo;
 use App\Role;
 use App\User;
@@ -62,9 +62,9 @@ class AdminUsersController extends Controller
         $input['password']=bcrypt($request->password);
         User::create($input);
 
-        /*User::create($request->all());
 
-        return redirect('/admin/users');*/
+
+        return redirect('/admin/users');
     }
 
     /**
@@ -88,7 +88,9 @@ class AdminUsersController extends Controller
     public function edit($id)
     {
         //
-        return view('admin.users.edit');
+        $user=User::findOrFail($id);
+
+        return view('admin.users.edit', compact('user'));
     }
 
     /**
