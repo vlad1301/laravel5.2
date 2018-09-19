@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68c60151-cd84-4e7f-a86f-f960416d8e1f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="68c60151-cd84-4e7f-a86f-f960416d8e1f" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -373,12 +371,12 @@
       <workItem from="1537253032434" duration="1783000" />
       <workItem from="1537257107686" duration="922000" />
       <workItem from="1537258928840" duration="599000" />
-      <workItem from="1537267912006" duration="6247000" />
+      <workItem from="1537267912006" duration="6497000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100499000" />
+    <option name="totallyTimeSpent" value="100749000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -391,7 +389,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-331" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32792208" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
